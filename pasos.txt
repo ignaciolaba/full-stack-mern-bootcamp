@@ -1,0 +1,16 @@
+1- Crear carpeta de proyecto
+2- Crear carpeta de Backend
+3- cd backend
+4- ejecutrar en terminal --> npm init -y / npm install express mongoose dotenv
+5. Crear archivo server.js
+6. Archivo server.js -->
+
+    const express = require('express');
+    const app = express();
+    app.listen(8000, () => {
+        console.log("Listening at Port 8000")
+    });
+7. Crear carpetas controllers db models routes
+8. Crear app react con vite o create-react-app
+9.  
+
